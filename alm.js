@@ -51,7 +51,7 @@ function AlmViz(options) {
 
         if (showTitle) {
             vizDiv.append("a")
-                .attr('href', 'http://dx.doi.org/' + data[0].doi)
+                .attr('href', 'https://doi.org/' + data[0].doi)
                 .attr("class", "title")
                 .text(data[0].title);
         }
